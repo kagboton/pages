@@ -1,7 +1,7 @@
 <nav aria-label="Page navigation example">
   <ul class="pagination justify-content-center">
 
-    <li class="page-item" [ngClass]="{disabled: currentPage === 0}">
+    <li class="page-item" appClass [ngClass]="{disabled: currentPage === 0}">
       <a class="page-link" href="#" (click)="currentPage = currentPage - 1">Previous</a>
     </li>
     <ng-container *ngFor="let image of images; let i = index;">
@@ -17,11 +17,12 @@
   </ul>
 </nav>
 
-<!-- <div>
+<div>
   <h4>{{images[currentPage].title}}</h4>
   <img [src]="images[currentPage].url" alt="">
-</div> -->
+</div>
 
+<!-- 
 <div [ngSwitch]="currentPage">
   <div *ngSwitchCase="0">
     Current page is one
@@ -35,4 +36,4 @@
   <div *ngSwitchDefault>
     Unknown current page
   </div>
-</div>
+</div> -->

@@ -1,5 +1,14 @@
 # Pages
 
+Pages application deployed with now.io and available at :  https://pages-one-theta.vercel.app Built from Stephen Grider Angular Udemy course (section 6) : https://www.udemy.com/course/the-modern-angular-bootcamp/
+
+
+What we've done here :
+
+- praticed strutural and attribute directives
+- crated custom strutural and attribute directives
+- replaced ngClass and ngFor directive with custom directives
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.7.
 
 ## Development server

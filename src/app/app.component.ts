@@ -2,11 +2,12 @@ import { NgClass, NgFor, NgIf, NgSwitch, NgSwitchCase, NgSwitchDefault } from '@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { ClassDirective } from './class.directive';
+import { TimesDirective } from './times.directive';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, NgFor, NgClass, NgIf, NgSwitch, NgSwitchCase, NgSwitchDefault, ClassDirective],
+  imports: [RouterOutlet, NgFor, NgClass, NgIf, NgSwitch, NgSwitchCase, NgSwitchDefault, ClassDirective, TimesDirective],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
 })
